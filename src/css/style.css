@@ -66,6 +66,10 @@ body {
     flex-direction: column;
     gap: 0.7rem;
     color: #ffffff;
+    width: 280px; /* Largura do elemento */
+    height: 100px; /* Altura do elemento */
+    overflow: auto; /* Habilita o scroll quando o conteúdo excede as dimensões */
+    margin-top: 8px;
 }
 
 #marks-list p:first-child {
